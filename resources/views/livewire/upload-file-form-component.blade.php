@@ -58,12 +58,13 @@
 							<label for="desc">description of product</label>
 							<input  type="text" name="desc" value="" placeholder="Street at apartment number" wire:model="line2">
 						</p>
-						<div class="form-group">
-                            <label for="" class="col-md-4 control-label">Product Gallery:</label>
-                            <div class="col-md-4">
-                                <input type="file" class="input-file" wire:model="images">
+						<div class="form-group ">
+                            <label for="" class="col-md-2 control-label">Product Gallery:</label>
+                            <div class="col-md-4" style="border:1px solid lightgrey; padding:20px 10px 20px 10px; border-radius:5px;">
+                            <input type="file" class="input-file" wire:model="images">
                             </div>
-                        </div>
+						</div>
+
                     </div>
 				    </div>
 				 </div>
@@ -75,4 +76,9 @@
 			</div><!--end main content area-->
 		</div><!--end container-->
 
+		<style>
+			.aa{
+				border:2px solid gray;
+			}
+		</style>
 	</main>
